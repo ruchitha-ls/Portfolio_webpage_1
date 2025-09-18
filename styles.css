@@ -1,0 +1,87 @@
+/* Overall page styling */
+:root {
+    --white-shade: #F8F9FA; /* Off-white */
+    --light-blue: #D0E0F0;  /* Very light blue */
+    --medium-blue: #52799A; /* Muted medium blue */
+    --dark-blue: #2A4058;   /* Dark navy/slate blue */
+    --yellow-accent: #FFC300; /* Vibrant yellow */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--white-shade);
+    color: var(--dark-blue);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Transitions and effects */
+.section, .skill-card, .project-card {
+    transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), 
+                box-shadow 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.section:hover, .skill-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and main layout */
+.header {
+    background: linear-gradient(135deg, var(--medium-blue) 0%, var(--dark-blue) 100%);
+    color: var(--white-shade);
+    padding: 80px 20px;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.header-content {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.name {
+    font-size: 3.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: var(--light-blue);
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--dark-blue);
+    margin-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.section p {
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Skills and projects styling */
+.skills-grid {
+    display
