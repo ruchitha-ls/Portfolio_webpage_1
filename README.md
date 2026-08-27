@@ -23,7 +23,7 @@ There are two primary ways to view this portfolio:
 ### Option 1: Live Demo (Recommended)
 
 The live version of the site is hosted at:
-➡️ **https://ruchitha-ls.github.io/Portfolio_webpage_1/** ⬅️
+➡️ **https://ruchitha-ls.github.io/Portfolio_webpage/** ⬅️
 
 ### Option 2: Run Locally
 
